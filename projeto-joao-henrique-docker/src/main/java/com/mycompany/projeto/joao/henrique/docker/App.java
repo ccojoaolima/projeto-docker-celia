@@ -39,7 +39,7 @@ public class App {
         
          // Configuração dos parâmetros de conexão
          
-        String url = "jdbc:mysql://localhost:3306/informacoesDosJogadores?autoReconnect=true&useSSL=false";
+        String url = "jdbc:mysql://localhost:3306/informacoesDosJogadores?allowPublicKeyRetrieval=true&useSSL=false";
         String user = "root";
         String passwd = "urubu100";
     
