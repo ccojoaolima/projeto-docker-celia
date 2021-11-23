@@ -38,7 +38,8 @@ public class App {
         System.out.println(winrate);
         
          // Configuração dos parâmetros de conexão
-        String url = "jdbc:mysql://localhost:3306/informacoesDosJogadores";
+         
+        String url = "jdbc:mysql://docker-mysql:3306/informacoesDosJogadores?autoReconnect=true&useSSL=false";
         String user = "root";
         String passwd = "urubu100";
     
