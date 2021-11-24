@@ -40,7 +40,7 @@ public class App {
          // Configuração dos parâmetros de conexão
         String url = "jdbc:mysql://localhost:3306/informacoesDosJogadores";
         String user = "root";
-        String passwd = "123";
+        String passwd = "urubu100";
     
         try {
 
